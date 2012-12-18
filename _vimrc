@@ -8,7 +8,11 @@ behave mswin
 " {{{
 " ===============================
 filetype off
-set runtimepath+=$VIM/bundle/vundle/
+if has("mac") || has("unix")
+    set runtimepath+=~/.vim/bundle/vundle/
+else
+    set runtimepath+=$VIM/bundle/vundle/
+endif
 call vundle#rc()
 
 " let Vundle manage Vundle

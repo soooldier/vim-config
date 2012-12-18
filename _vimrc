@@ -228,6 +228,7 @@ Bundle 'FuzzyFinder'
 let g:fuf_enumeratingLimit = 5000
 map ,ff :FufFile!<cr>
 map ,fb :FufBuffer<cr>
+map ,fr :FufRenewCache<cr>
 let g:fuf_buffer_keyDelete = '<C-d>'
 " }}}
 

@@ -238,7 +238,7 @@ Bundle 'git://github.com/motemen/git-vim.git'
 
 " SuperTab continue
 " {{{
-Bundle 'SuperTab-continued'
+Bundle 'SuperTab-continued.'
 let g:SuperTabDefaultCompletionType="<C-X><C-O>"
 "}}}
 

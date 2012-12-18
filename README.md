@@ -9,7 +9,9 @@
 	进入VIM
 	>:BundleInstall
 
+
   + windows
+
 
 	>$ git clone https://github.com/soooldier/vim-config.git vim/bundle/
 

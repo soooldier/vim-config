@@ -115,7 +115,7 @@ endif
 " Help file & menu bar display normal
 let $LANG='zh_CN.UTF-8'
 set encoding=utf-8
-set fileencodings=ucs-bom,utf-8,gb2312 
+set fileencodings=ucs-bom,utf-8,cp936 
 set langmenu=zh_CN.UTF-8
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
@@ -173,8 +173,12 @@ set wrap
 
 
 " ===============================
-" Auto Complete
+" Vim grep
 " ===============================
+map <leader>c :copen<cr>
+map <leader>n :cn<cr>
+map <leader>p :cp<cr>
+
 
 " ===============================
 " Maps
